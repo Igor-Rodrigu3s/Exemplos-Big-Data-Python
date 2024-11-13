@@ -2,9 +2,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
-data={'Piloto':['Verstappen', 'Norris', 'Leclerc', 'Piastri', 'Hamilton', 'Sainz', 'Russell'],
-      'Vitórias':[7, 3, 2, 2, 2, 1, 1],
-      'Pódios':[11, 11, 9, 7, 5, 4, 3]}
+data={'Piloto':['Verstappen', 'Norris', 'Leclerc', 'Piastri', 'Sainz', 'Russell', 'Hamilton'],
+      'Vitórias':[8, 3, 3, 2, 2, 1, 1],
+      'Pódios':[13, 12, 11, 7, 7, 3, 4]}
 df=pd.DataFrame(data)
 df.index = df.index + 1
 print(df)
